@@ -1,0 +1,17 @@
+{
+  "name": "mobilefirst",
+  "version": "1.0.0",
+  "description": "Web mobile first para la venta de criptomonedas",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Html",
+    "css",
+    "mobile",
+    "first"
+  ],
+  "author": "JOSE LUIS ZUÑIGA <joseluis836@hotmail.com>",
+  "license": "MIT"
+}
