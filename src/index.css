@@ -100,27 +100,28 @@ header figure img{
 /******* Fin Header *******/
 
 /********** Main **********/
-main{
-    margin-top: 60px;
+main{    
     width: 100%;
     height: auto;
+    background-color: var(--just-white);
 }
 main .container{
     display: flex;
     flex-direction: column;
     align-content: center;
-
-
+    width: 100%;
+    padding-top: 80px;
 }
 .main--exchange-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.backgroundImg{
-    width: 60%;
-    height: 250px;
+.main--exchange-container .backgroundImg{
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
+    margin-bottom: 50px;
 
     background-image: url("../src/assets/img/Bitcoin.svg");
     background-position: center;
@@ -130,27 +131,31 @@ main .container{
 
 .main-exchange-container--title{
     width: 90%;
+    min-width: 280px;
+    max-width: 900px;
     height: auto;
     margin: 20px 20px;
 }
 .main-exchange-container--title h2{
+    margin-bottom: 30px;
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    margin-bottom: 20px;
+    color: var(--black);
 }
 .main-exchange-container--title p{
+    margin-bottom: 30px;
     text-align: center;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     color:#757575;
 }
-.main-exchange-table{
+.main-table-container{
     width: 90%;
 }
-.main-exchange-table h4{
+.main-table-container h4{
     width: 75%;
     margin: 0 auto;
     margin-bottom: 15px;
@@ -160,40 +165,86 @@ main .container{
     color: #FF9536;
     
 }
-.main-exchange-table table{
-    width: 80%;
+.main-currency-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
     margin: 0 auto;
-    background: var(--just-white);
+    font-family: 'Inter', sans-serif;
 }
-.main-exchange-table tr{
-    height: 39px;
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-}
-.main-exchange-table td{
-    padding: 10px 20px;
-    border: 1px solid var(--off-white);
+.main-currency-table .currency-table--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
 }
 
-.main-exchange-table p{
-    margin: auto 0;
-    width: 70%;
-    height: 50px;
-    padding: 15px 8px;
-    margin: 20px auto;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-size: 1.2rem;
+.currency-table--container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.currency-table--container table{
+    width: 100%;
+    height: 100%;
+}
+
+.currency-table--container td{
+    width: 50%;
+    font-size: 1.6rem;
     font-weight: 500;
-    border-radius: 5px;
-    background-color: var(--soft-orange);
-    
-}  
-.main-exchange-table p span{
-    font-weight: bold;
-}  
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.currency-table--container .table__top-lef{
+    border-radius: 15px 0 0 0;
+}
+.currency-table--container .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+.currency-table--container .table__bottom-right{
+    border-radius: 0 0 15px 0;
+}
+.currency-table--container .table__bottom-left{
+    border-radius: 0 0 0 15px;
+}
+
+.currency-table--container .down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.currency-table--container .up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-up.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
 /******* Fin Main ********/
 
 /********* Footer *********/
