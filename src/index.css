@@ -58,6 +58,7 @@ header figure img{
     justify-self: center;
     margin-top: 35px;
     width: 80%;    
+    max-width: 650px;
     text-align: center;
 }
 .header-title-container h1{
