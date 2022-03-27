@@ -670,15 +670,18 @@ main .container{
 
 /********* Footer *********/
 footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
     width: 100%;
     min-width: 320px;
     height: 150px;
 
     background-color: var(--bitcoin-orange);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 320px;
+    height: 100%;
 }
 .footer-network--container li{
     list-style: none;
