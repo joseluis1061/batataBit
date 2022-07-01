@@ -120,7 +120,7 @@ header figure img{
     height: 20px;
     margin-left: 5px;
     vertical-align: text-bottom;
-    background-image: url("assets/icons/down-arrow.svg");
+    background-image: url("./assets/icons/down-arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -427,7 +427,7 @@ main .container{
     left: calc(50% - 25px);
     width: 50px;
     height: 40px;
-    background-image: url("assets/icons/batata.svg");
+    background-image: url("./assets/icons/batata.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -489,19 +489,19 @@ main .container{
 }
 /*Agregando los iconos especificos para cada card*/
 .main-icon__time{
-    background-image: url("assets/icons/clock.svg");
+    background-image: url("./assets/icons/clock.svg");
 }
 
 .main-icon__eye{
-    background-image: url("assets/icons/eye.svg");
+    background-image: url("./assets/icons/eye.svg");
 }
 
 .main-icon__dollar-sign{
-    background-image: url("assets/icons/dollar-sign.svg");
+    background-image: url("./assets/icons/dollar-sign.svg");
 }
 
 .main-icon__check-circle{
-    background-image: url("assets/icons/check-circle.svg");
+    background-image: url("./assets/icons/check-circle.svg");
 }
 
 .main-info-cards-container .card .main-card-icon{
@@ -539,7 +539,7 @@ main .container{
     width: 100%;
     min-width: 280px;
     height: 50vh;
-    background-image: url("assets/img/bitcoinbaby.jpg");
+    background-image: url("./assets/img/bitcoinbaby.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
